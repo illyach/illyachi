@@ -5,7 +5,7 @@ function Info() {
         <div className={styles.position}>
             <h1 className={styles.h1}>Suggest.me</h1>
                     <div className={styles.p}>
-                        <p>Discover new and exciting movies with Suggest.me!</p>
+                        <p>Discover new and exciting movies with Suggest.me!!</p>
 
                         <p>Our platform generates a personalized list of films for you to enjoy, making it easy to find your next favorite.</p>
 
