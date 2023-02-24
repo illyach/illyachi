@@ -1,0 +1,52 @@
+.header{
+  position: fixed; //change from fixed because Info
+  top: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #121829;
+  background-image: url(../../assets/images/image.png);
+  backdrop-filter: blur(20px);
+  z-index: 1;
+}
+
+.svg{
+  position: absolute;
+  z-index: 3;
+  margin: 20px 0 28px 125px;
+}
+
+
+.nav{
+
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+  background-color: #121829;
+  background-image: url(../../assets/images/image.png);
+  backdrop-filter: blur(20px);
+
+  &:hover{
+    color: #a8a5e8;
+  }
+
+}
+
+.a:hover{
+  color: #a8a5e8;
+  cursor: pointer;
+}
+
+.nav a{
+  padding: 20px;
+  margin: 10px 60px 0 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #A8AEBF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

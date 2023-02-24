@@ -1,0 +1,23 @@
+.position {
+    position: relative;
+    top:0px;
+    width: 100vh;
+    margin-right: 390px;
+    width: 100%;
+}
+.h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    color:#EBEEF5;
+}
+
+.p{
+    color: #767E94;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+}
