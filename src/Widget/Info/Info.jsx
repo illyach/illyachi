@@ -3,7 +3,7 @@ import styles from './Info.module.css'
 function Info() {
     return (
         <div className={styles.position}>
-            <h1 className={styles.h1}>Suggest.my</h1>
+            <h1 className={styles.h1}>Suggest.me</h1>
                     <div className={styles.p}>
                         <p>Discover new and exciting movies with Suggest.me!</p>
 
