@@ -36,7 +36,7 @@ const MainContainer = () => {
     const getMoviesForQuery = async (value) => {
         try {
             const response = await fetch(
-                `https://cogitize-practice-suggest.onrender.com/movie/ç${value}`
+                `https://cogitize-practice-suggest.onrender.com/movie/${value}`
             );
             const data = await response.json();
 
