@@ -13,6 +13,8 @@ li{
 }
 
 .container {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #121829;
     background-image: url(../../assets/images/image.png);
     backdrop-filter: blur(20px);

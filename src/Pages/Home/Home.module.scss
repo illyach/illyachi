@@ -7,13 +7,13 @@
   //background-color: #121829;
   //background-image: url(../../assets/images/image.png);
   //backdrop-filter: blur(20px);
-
   padding-top: 103px;
   padding-bottom: 56px;
 }
 
 .content {
   max-width: 1186px;
+  background-repeat: no-repeat;
 }
 
 .title_wrapper {
@@ -36,6 +36,10 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
+ & span{
+   font-size: 16px;
+   font-weight: 400;
+ }
   //max-width: 1200px;
   //position: absolute;
   //width: 108px;

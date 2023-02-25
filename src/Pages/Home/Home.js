@@ -36,7 +36,7 @@ const MainContainer = () => {
     const getMoviesForQuery = async (value) => {
         try {
             const response = await fetch(
-                `https://cogitize-practice-suggest.onrender.com/movie/list?genre=${value}&amount=8`
+                `https://cogitize-practice-suggest.onrender.com/movie${value}`
             );
             const data = await response.json();
 
@@ -71,7 +71,11 @@ const MainContainer = () => {
                     </div>
                     <Buttons onChange={handleInput} value={inputValue}/>
                 </div>
-                <span className={s.any}>Any(120)</span>
+
+                <div className={s.any}>
+                    Any
+                <span>({movie.length})</span>
+                </div>
                 <ul className={s.list} >
                     {movie.map((item) => {
                         return (
