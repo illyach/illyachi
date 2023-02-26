@@ -42,7 +42,7 @@ const MainContainer = () => {
 
             setMovie(data);
         } catch (error) {
-            console.log("Catch error :", error);
+            console.log("Catch error:", error);
         }
         finally
         {
