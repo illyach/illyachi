@@ -61,6 +61,8 @@ const MainContainer = () => {
     };
 
 
+
+
     return (
         <div className={s.container}>
             <div className={s.content}>
@@ -68,7 +70,7 @@ const MainContainer = () => {
                     <div className={s.title_wrapper}>
                         <Info />
                     </div>
-                    <Buttons onChange={handleInput} value={inputValue}/>
+                    <Buttons onChange={handleInput} value={inputValue} setInputValue={setInputValue}/>
                 </div>
 
                 <div className={s.any}>
@@ -79,10 +81,10 @@ const MainContainer = () => {
                     {movie.map((item) => {
                         return (
                         <>
-                                 <li key={item._id}>
-                            <Link to={`details/${item._id}`}>
-                                 <Card data={item}/>
-                            </Link>
+                            <li key={item._id}>
+                                <Link to={`details/${item._id}`}>
+                                     <Card data={item}/>
+                                </Link>
                             </li>
                         </>
                         );
